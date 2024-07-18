@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML with Text, Music, Background, and Photo</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Gambar latar belakang */
+            background-size: cover; /* Ukuran gambar latar */
+            background-repeat: no-repeat; /* Tidak mengulang gambar */
+            background-position: center; /* Posisi gambar di tengah */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            color: white; /* Warna teks */
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk teks */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 90%; /* Membatasi lebar konten maksimal */
+            margin: auto; /* Pusatkan konten secara horizontal */
+        }
+        h1 {
+            color: #ffffff; /* Warna teks untuk judul */
+            text-shadow: 2px 2px 4px #000000; /* Bayangan teks */
+        }
+        p {
+            color: #ffffff; /* Warna teks untuk paragraf */
+            text-shadow: 1px 1px 2px #000000; /* Bayangan teks */
+        }
+        img {
+            max-width: 100%; /* Mengatur ukuran maksimum gambar */
+            width: 35%; /* Mengatur lebar gambar untuk menyesuaikan dengan kontainer */
+            height: auto; /* Menjaga rasio aspek gambar */
+            border: 2px solid #ffffff; /* Menambahkan border ke gambar */
+            margin-top: 20px; /* Memberikan jarak atas pada gambar */
+        }
+        audio {
+            width: 100%; /* Mengatur lebar audio untuk menyesuaikan dengan kontainer */
+            margin-top: 20px; /* Memberikan jarak atas pada elemen audio */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>HI YOU...</h1>
+        <p>LONG TIME NO SEE YA...</p>
+
+        <audio controls autoplay loop>
+            <source src="I like you the most (Sped Up) - Shad English Ver. [ Lyric Video ].mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <img src="awas2.webp" alt="A beautiful scenery">
+
+        <p>HARI INI SIBUK GA?, CARI ANGIN YANG LEBIH DARI AC KRL YUK HEHEHE</p>
+    </div>
+</body>
+</html>
